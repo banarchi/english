@@ -21,6 +21,7 @@ header{
     justify-content: center;
     align-items: center;
     color: white;
+    
 }
 
 nav{
@@ -35,6 +36,8 @@ nav a{
     color: white;
     background-color: #2980B9;
     padding: 7px 14px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .start{
@@ -54,4 +57,29 @@ nav a{
 
 .right{
     text-align: right;
+}
+
+.test_zagolovok{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2980B9;
+    border-radius: 30%;
+}
+
+.test_zagolovok span{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+
+.about_text{
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    text-align: center;
+    background-color: #2980B9;
+    color: white;
 }
