@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html{
     font-family: 'Montserrat';
@@ -82,4 +83,54 @@ nav a{
     text-align: center;
     background-color: #2980B9;
     color: white;
+}
+
+.answer{
+    width: 60px;
+    height: 60px;
+    background-color: #2980B9;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    gap: 10px; 
+}
+
+.test_question{
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    text-align: center;
+    background-color: #2980B9;
+    color: white;
+}
+
+.reviews_title{
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    text-align: center;
+    background-color: #2980B9;
+    color: white;
+}
+
+.write_text{
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    text-align: center;
+    background-color: #2980B9;
+    color: white;
+}
+
+.write_input{
+    
 }
